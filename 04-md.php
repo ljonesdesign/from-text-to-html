@@ -1,6 +1,6 @@
 <?php
  
-      include '../parsedown.php';
+      include 'parsedown.php';
       $Parsedown = new Parsedown();
 
 echo $Parsedown->text('
